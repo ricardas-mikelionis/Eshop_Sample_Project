@@ -4,11 +4,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
-      xmlns:f="http://xmlns.jcp.org/jsf/core">
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:p="http://primefaces.org/ui">
 <f:view>
     <h:outputLabel value="Hello, world"/>
 </f:view>
 <h:head><title>Eshop app</title></h:head>
-<h:body><p>Eshop text</p></h:body>
-
+<h:body>
+    <p>Eshop text</p>
+</h:body>
+<div>
+<h:form>
+<c:forEach items="#{SimpleController.getProducts()}" var="product">
+    <p>
+        <h:outputText value="#{product.name()}" style="font-weight:bold"/>
+    </p>
+</c:forEach>
+</h:form>
+</div>
 </html>

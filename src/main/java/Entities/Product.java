@@ -8,6 +8,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "product")
+@NamedQueries({@NamedQuery(name = "Product.findAll", query = "SELECT p FROM Product p")})
 public class Product {
     @Id
     @Column(name = "idproduct")

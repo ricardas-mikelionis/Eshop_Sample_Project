@@ -7,8 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c532943e-2d5b-4eaf-ae93-7960bb163cfb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/SimpleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/resources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/eshop_app_Web_exploded/Index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/eshop_app_Web_exploded/Index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/eshop_app_Web_exploded/WEB-INF/classes/DAO/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/eshop_app_Web_exploded/WEB-INF/classes/DAO/ProductDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/eshop_app_Web_exploded/WEB-INF/classes/Entities/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/eshop_app_Web_exploded/WEB-INF/classes/Entities/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/eshop_app_Web_exploded/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/eshop_app_Web_exploded/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/eshop_app_Web_exploded/WEB-INF/classes/persistance.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/eshop_app_Web_exploded/WEB-INF/classes/persistance.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/persistance.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/persistance.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/ProductDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entities/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entities/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/persistance.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/persistance.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/Index.xhtml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,16 +65,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SimpleController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/SimpleController.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resources.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/resources.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persistance.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/persistance.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -69,32 +104,8 @@
       <file leaf-file-name="Index.xhtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/Index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Entities/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#1008#1009#0" expanded="true" />
-                <element signature="e#1054#1055#0" expanded="true" />
-              </folding>
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -113,6 +124,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/web/Index.xhtml" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -121,10 +135,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Entities/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entities/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Entities/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/DAO/OrderDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DAO/ProductDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/Controllers/SimpleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/persistance.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Entities/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DAO/ProductDAO.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/resources.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/web/Index.xhtml" />
       </list>
     </option>
@@ -239,7 +256,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -380,12 +397,12 @@
       <option name="presentableId" value="Default" />
       <updated>1525539748556</updated>
       <workItem from="1525539762625" duration="2043000" />
-      <workItem from="1525630757801" duration="5144000" />
+      <workItem from="1525630757801" duration="10416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7187000" />
+    <option name="totallyTimeSpent" value="12459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -412,10 +429,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.41017488" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" visible="true" weight="0.41017488" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Persistence" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -435,6 +452,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -451,13 +473,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jspx" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -496,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/persistance.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Entities/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -517,56 +525,6 @@
             <element signature="e#1190#1191#0" expanded="true" />
             <element signature="e#1242#1243#0" expanded="true" />
             <element signature="e#1286#1287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entities/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/OrderDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/ProductDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/SimpleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -593,10 +551,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/SimpleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/OrderDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entities/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/ProductDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/persistance.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/resources.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/Index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="68">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -654,7 +690,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|eshop_app</last-edited>
+          <last-edited>JPA|eshop_app</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -666,7 +702,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: javax.servlet:servlet-api:3.0-alpha-1</last-edited>
+          <last-edited>Maven: org.projectlombok:lombok:1.16.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

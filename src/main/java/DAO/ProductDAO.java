@@ -14,9 +14,7 @@ public class ProductDAO {
     private EntityManager entityManager;
 
     public List<Product> getProducts(){
-        CriteriaQuery<Product> productCriteriaQuery = entityManager.getCriteriaBuilder().createQuery(Product.class);
-        productCriteriaQuery.select(productCriteriaQuery.from(Product.class));
-        return entityManager.createQuery(productCriteriaQuery).getResultList();
+        return entityManager.createNamedQuery("Product.findAll", Product.class).getResultList();
     }
 
 }
