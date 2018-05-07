@@ -5,9 +5,9 @@
     <!-- H2 Database -->
     <Resource id="EshopDataSource" type="DataSource">
         JdbcDriver = com.mysql.jdbc.Driver
-        JdbcUrl = jdbc:mysql://localhost:3306/eshop_database;AUTO_SERVER=TRUE;
-        UserName = admin
-        Password = admin
+        JdbcUrl = jdbc:mysql://localhost:3306/eshop_database
+        UserName = user
+        Password = user
         InitialSize = 1
         MaxActive = 10
         MaxWaitTime = 10 seconds

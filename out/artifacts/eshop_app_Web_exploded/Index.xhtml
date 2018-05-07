@@ -16,9 +16,9 @@
 </h:body>
 <div>
 <h:form>
-<c:forEach items="#{SimpleController.getProducts()}" var="product">
+<c:forEach items="#{SimpleController.products}" var="product">
     <p>
-        <h:outputText value="#{product.name()}" style="font-weight:bold"/>
+        <h:outputText value="#{product.product_name}" style="font-weight:bold"/>
     </p>
 </c:forEach>
 </h:form>

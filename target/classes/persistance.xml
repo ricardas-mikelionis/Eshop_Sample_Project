@@ -9,10 +9,10 @@
             <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
             <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/eshop_database"/>
             <property name="hibernate.connection.autocommit" value="false"/>
-            <property name="hibernate.connection.username" value="admin"/>
-            <property name="hibernate.connection.password" value="admin"/>
-            <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>
-            <!--property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/-->
+            <property name="hibernate.connection.username" value="user"/>
+            <property name="hibernate.connection.password" value="user"/>
+            <!--property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/-->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
             <property name="hibernate.connection.CharSet" value="utf8"/>
             <property name="hibernate.connection.characterEncoding" value="utf8"/>
             <property name="hibernate.connection.useUnicode" value="true"/>

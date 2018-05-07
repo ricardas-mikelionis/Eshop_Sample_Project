@@ -15,6 +15,12 @@ public class SimpleController {
     @Inject
     private ProductDAO productDAO;
 
+    private List<Product> products;
+
+    public SimpleController(){
+       products = getProducts();
+    }
+
     private Product product = new Product();
 
     public List<Product> getProducts(){
